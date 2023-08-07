@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">2,596</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.java.Tests</td><td><a href="#m0">mandatoryParamCountryValidation</a></td><td rowspan="1">1691410337010</td><td rowspan="1">1968</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">test.java.Tests</td><td><a href="#m1">mandatoryParamTermValidation</a></td><td rowspan="1">1691410338981</td><td rowspan="1">37</td></tr><tr class="passedeven"><td><a href="#m2">validateInvalidDataThrowsBadRequest</a></td><td rowspan="1">1691410339019</td><td rowspan="1">294</td></tr><tr class="passedeven"><td><a href="#m3">validateLimitParameter</a></td><td rowspan="1">1691410339315</td><td rowspan="1">40</td></tr><tr class="passedeven"><td><a href="#m4">validateResponseResultHasExpectedParameters</a></td><td rowspan="1">1691410339356</td><td rowspan="1">173</td></tr><tr class="passedeven"><td><a href="#m5">validateSearchResultsDisplayed</a></td><td rowspan="1">1691410339530</td><td rowspan="1">34</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">test.java.Tests#mandatoryParamCountryValidation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">You have 15 search results without providing Country paramater</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at test.java.Tests.mandatoryParamCountryValidation(Tests.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.java.Tests#mandatoryParamTermValidation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">You have 0 search results. Term parameter is mandatory</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.java.Tests#validateInvalidDataThrowsBadRequest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Bad request validation successful for invalid test data</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.java.Tests#validateLimitParameter</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">You have 5 search results. Limit parameter working as expected</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.java.Tests#validateResponseResultHasExpectedParameters</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">All the required fields are displayed in the response for given sample test data</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.java.Tests#validateSearchResultsDisplayed</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">You have 20 search results</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
